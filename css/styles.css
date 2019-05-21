@@ -1,0 +1,266 @@
+/*
+    Colours:
+    (Darkest to lightest)
+
+    background - Darkest
+    0F0F0F
+
+    backgrounds - greys
+    181818
+    252627
+    6D6E70
+
+    foreground - text
+    DBEEE7
+
+    foreground - colour blue
+    08FFDC
+
+    foreground - blood orange
+    FD1056
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display:900');
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    min-width: 800px;
+
+    background-color: #000;
+    color: #DBEEE7;
+}
+
+#nav-container{
+    background-color: #181818;
+    position: fixed;
+    width: 60px;
+    min-height: 300px;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#nav-image-container{
+    background-color: #0F0F0F;
+    width: 100%;
+    height: 9%;
+    padding: 2px;
+}
+#nav-image-container>a>img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#nav-links-container{
+    width: 100%;
+    height: 56%;
+}
+.glyphicon {
+    font-size: 60px;
+}
+.hover-highlight:hover{
+    background-color: #252627;
+    color: white;
+}
+.btn{
+    color: #A4A4A4;
+}
+#nav-icons-container{
+    width: 100%;
+    height: 20%;
+    color: #A4A4A4;
+
+    font-size: 20px;
+}
+a{
+    color: #A4A4A4;
+}
+a:hover{
+    color:white;
+}
+#nav-cvdownload-container{
+    width: 100%;
+    height: 15%;
+}
+#nav-cvdownload-container>button{
+    width: 100%;
+    height: 100%;
+    font-size: 0.70em;
+    padding: 1px;
+}
+
+.container-fluid{
+    width: calc(100% - 60px); /*100% - the (sidebar + secondary)*/
+    margin-left: 60px; /*same as sidebar width*/
+    height: 100%;
+}
+.row{
+    width: 100%;
+}
+#content-container{
+    width: calc(100% - 60px);
+    background-color: #000;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#content-row{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+#content-row-override{
+    width: 100%;
+    margin: 0px;
+}
+canvas {
+    display: block;
+}
+
+#content-text{
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    margin-left: 20px;
+    width: 700px;
+}
+.content-title{
+    font-family: 'Playfair Display', serif;
+}
+.highlight-blue{
+    color: #08FFDC;
+}
+.highlight-red{
+    color: #FD1056;
+}
+.highlight-black{
+    color: #0F0F0F;
+}
+.content-description{
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+.montserrat-font{
+    font-family: 'Montserrat', sans-serif;
+}
+#content-description{
+    margin-left: 3px;
+
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+}
+#map{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+#uni-experience-div{
+  padding-top: 50px;
+  max-width: 700px;
+  margin: 0px auto;
+}
+#skills-image-div{
+  width: 90%;
+  margin: 50px auto;
+}
+#skills-image-div>img{
+  width: 9%;
+  margin: 2%;
+  height: 9%;
+  border-radius: 50%;
+}
+#project-experience-div{
+  padding-top: 50px;
+  max-width: 700px;
+  margin: 0px auto;
+}
+#project-image-div{
+  width: 90%;
+  margin: 50px auto;
+}
+#project-image-div>a>img{
+  width: 20%;
+  margin: 2%;
+  height: 20%;
+  border-radius: 50%;
+}
+#project-image-div>a>img:hover{
+  border: 5px solid gray;
+}
+.max-width-div{
+    max-width: 700px;
+}
+
+/* Photography */
+#photo-content-div{
+  max-width: 800px;
+  height: 100%;
+  margin: 50px auto 0px auto;
+}
+
+#photo-display-div{
+  width: 100%;
+  height: 95%;
+
+}
+#photo-display-div>img{
+  width: 100%;
+  /*max-height: 100%;*/
+
+  height: auto;
+}
+
+#photo-switcher-div{
+  width: 145px;
+  height: 5%;
+  margin: 0px auto;
+}
+#photo-switcher-div>span{
+  width: 20px;
+  font-size: 0.8em;
+}
+#photo-switcher-div>button{
+  width: 30px;
+  height: 100%;
+
+  border: 0px;
+  margin: 0px 10px;
+
+  color: white;
+
+  font-size: 1.1em;
+  background-color: #000;
+}
+
+
+#mccafe-experience-div{
+  padding-top: 50px;
+  max-width: 700px;
+  margin: 0px auto;
+}
+#spruce-experience-div{
+  padding-top: 50px;
+  max-width: 700px;
+  margin: 0px auto;
+}
+#coffee-image-div{
+  width: 90%;
+  margin: 50px auto;
+}
+#coffee-image-div>img{
+  width: 20%;
+  margin: 2%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+.fill{
+    width: 100%;
+    height: 100%;
+}
+
+#canvas-screen-display{
+}

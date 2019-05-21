@@ -1,0 +1,44 @@
+<div id="centered-container">
+    <div id="sidebar-container">
+            <div id="profile-image">
+                <img src="resources/imgs/profile_small.JPG" alt="devon wright profile image" class="circle img-fluid">
+            </div>
+            <div id="text">
+                <h3 class=" text-center"> Devon Wright </h3>
+
+                <p class="small"> Hi, I’m Devon and this is my website showcasing who I am as a person. I am a recent Computer Science Graduate and I'm eager to develop my skills within the Industry. Here you will be able to find everything from my Personal projects to Photography. Enjoy!</p>
+            </div>
+            <div id="links" class="align-bottom">
+                <a href="https://www.linkedin.com/in/devon-wright/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/devon.m.wright/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:devonwright.main@gmail.com">
+                    <i class="fas fa-envelope-square"></i>
+                </a>
+                <a href="https://github.com/devon-wright">
+                    <i class="fab fa-github-square"></i>
+                </a>
+
+                <h6 id="colourscheme-trigger" class="small"> Colour Change </h6>
+            </div>
+        </div>
+
+    <div id="nav-container">
+        <ul>
+            <li><a href="#">  Home </a></li>
+            <li><a href="#">  Developer </a></li>
+            <li><a href="#">  Photographer </a></li>
+            <li><a href="#">  Barista </a></li>
+            <li><a href="/contact.html">  Contact </a></li>
+        </ul>
+    </div>
+
+    <div id="main-container">
+        <canvas id="canvas-screen-display">
+            Error: Could not display Canvas Screen!
+        </canvas>
+    </div>
+</div>
