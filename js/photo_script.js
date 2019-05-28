@@ -18,14 +18,14 @@ $(window).on('load', function() {
                     "img (7).jpg",
                     "img (8).jpg"];
   var curr_image_number = 0;
-  var caption_list = ["Image taken atop of the Mt in Tauranga - 2018 Jan",
-                      "xx",
-                      "xx",
-                      "xx",
-                      "xx",
-                      "xx",
-                      "xx",
-                      "xx"
+  var caption_list = ["My friend during our walk through Hamilton Gardens. (2018 September)",
+                      "My friends during our walk through Hamilton Gardens. (2018 September)",
+                      "Royal Port Nicholson Yacht Club boat sheds. (2018 December)",
+                      "Royal Port Nicholson Yacht Club boat sheds. (2018 December)",
+                      "Wellington Cable Car and Lambton Harbour. (2018 December)",
+                      "Inside Old Saint Pauls Wooden Cathedral. (2018 December)",
+                      "Looking across to the Makara West Wind Farm during a short hike along the coast. (2019 February)",
+                      "Graduation photo of a few close friends. (2018 December)"
                   ];
 
   //update display
