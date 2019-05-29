@@ -18,6 +18,11 @@ $(window).on('load', function() {
         //context.translate(0.125, 0.125);
         canvas.width = $('#content-row').width();
         canvas.height = $('#content-container').height();
+
+        for(var i in circles){
+            circles[i].posX = Math.floor((Math.random() * (canvas.width-50)) + 50);
+            circles[i].posY = Math.floor((Math.random() * (canvas.height-50)) + 50);
+        }
     }
     window.addEventListener('resize', resizeCanvas, false);
 
@@ -32,7 +37,6 @@ $(window).on('load', function() {
         for(var i = 0; i < 45; i++){
             new CircleObj();
         }
-
     }
 
     function CircleObj(){
